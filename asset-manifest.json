@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/lifesim-game/static/css/main.073c9b0a.css",
-    "main.js": "/lifesim-game/static/js/main.1364e441.js",
-    "static/js/787.98655b79.chunk.js": "/lifesim-game/static/js/787.98655b79.chunk.js",
-    "static/media/logo.svg": "/lifesim-game/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/lifesim-game/static/css/main.e6c13ad2.css",
+    "main.js": "/lifesim-game/static/js/main.3b9ed11d.js",
     "index.html": "/lifesim-game/index.html",
-    "main.073c9b0a.css.map": "/lifesim-game/static/css/main.073c9b0a.css.map",
-    "main.1364e441.js.map": "/lifesim-game/static/js/main.1364e441.js.map",
-    "787.98655b79.chunk.js.map": "/lifesim-game/static/js/787.98655b79.chunk.js.map"
+    "main.e6c13ad2.css.map": "/lifesim-game/static/css/main.e6c13ad2.css.map",
+    "main.3b9ed11d.js.map": "/lifesim-game/static/js/main.3b9ed11d.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1364e441.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3b9ed11d.js"
   ]
 }
