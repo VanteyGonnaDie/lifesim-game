@@ -5,7 +5,7 @@ const PlayArea = (props: any) => {
     return (
         <div>
             <Routes>
-                <Route path='/' element={<Home core={props.core} />}></Route>
+                <Route path='' element={<Home core={props.core} />}></Route>
                 <Route path='/job'>
                     <>job</>
                 </Route>
