@@ -1,7 +1,8 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
-import { Link } from 'react-router-dom'
+import { BrowserRouter, Link, Router } from 'react-router-dom'
 import { RootState, store } from '../store'
+import Menu from './Menu/Menu'
+import PlayArea from './PlayArea/PlayArea'
 
 const { dispatch } = store
 interface LayoutProps {
@@ -15,6 +16,7 @@ interface LayoutProps {
 
 const Layout = (props: LayoutProps) => {
   return (
+        <BrowserRouter>
     <div style={{display: 'flex'}}>
     <div className='first'>
         <>Main menu</>
@@ -22,12 +24,11 @@ const Layout = (props: LayoutProps) => {
         <p>{props.money.toFixed(2)}</p>
         <p>{props.income.toFixed(2)}</p>
         <p>{props.multy.toFixed(2)}</p>
-        <p>test</p>
-        <p>test</p>
-        <p>test</p>
+        <Menu />
     </div>
     <div className='second'>
     <div>
+            <PlayArea core={props.core}></PlayArea>
         <p>Timer: {props.timer}</p>
         <p>money: {props.money.toFixed(0)} (income:{(props.income*props.multy).toFixed(0)}/s)</p>
         <p>current multiplier: {props.multy.toFixed(2)}</p>
@@ -39,6 +40,7 @@ const Layout = (props: LayoutProps) => {
     </div>
 
     </div>
+        </BrowserRouter>
   )
 }
 
