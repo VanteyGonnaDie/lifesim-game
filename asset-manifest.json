@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lifesim-game/static/css/main.42e1eedb.css",
+    "main.css": "/lifesim-game/static/css/main.ca7a78ea.css",
     "main.js": "/lifesim-game/static/js/main.220e6680.js",
     "index.html": "/lifesim-game/index.html",
-    "main.42e1eedb.css.map": "/lifesim-game/static/css/main.42e1eedb.css.map",
+    "main.ca7a78ea.css.map": "/lifesim-game/static/css/main.ca7a78ea.css.map",
     "main.220e6680.js.map": "/lifesim-game/static/js/main.220e6680.js.map"
   },
   "entrypoints": [
-    "static/css/main.42e1eedb.css",
+    "static/css/main.ca7a78ea.css",
     "static/js/main.220e6680.js"
   ]
 }
