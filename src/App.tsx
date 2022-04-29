@@ -4,6 +4,8 @@ import { Navigate, Route, useRoutes } from 'react-router';
 import Layout from './components/Layout';
 import { RootState, store } from './store';
 
+import './styles/App.sass'
+
 const { dispatch } = store
 
 const App = () => {
